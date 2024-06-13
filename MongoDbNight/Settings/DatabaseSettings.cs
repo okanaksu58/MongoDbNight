@@ -2,9 +2,9 @@
 {
     public class DatabaseSettings : IDatabaseSettings
     {
-        public string CategoryCollectionName { get; }
-        public string ProductCollectionName { get; }
-        public string ConnectionString { get; }
-        public string DatabaseName { get; }
+        public string CategoryCollectionName { get; set; }
+        public string ProductCollectionName { get; set; }
+        public string ConnectionString { get; set; }
+        public string DatabaseName { get; set; }
     }
 }
